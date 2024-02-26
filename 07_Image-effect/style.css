@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#container-one {
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    overflow: hidden;
+}
+
+#container-one img {
+    width: 100%;
+    transition: all 1s;
+}
+
+#container-one .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: all 1s;
+    background: rgb(23, 23, 23);
+    transform: translateX(-100%);
+}
+
+#container-one .content h1 {
+    padding: 20px 10px;
+
+}
+
+#container-one:hover .content {
+    transform: translateX(0);
+}
+
+#container-one:hover img {
+    transform: translateX(100%);
+}
+
+/* +++++++++++++++++Section 2 */
+
+#container-two {
+    width: 30rem;
+    height: 30rem;
+    position: relative;
+    overflow: hidden;
+
+}
+
+#container-two img {
+    width: 100%;
+    transition: all 0.5s;
+
+}
+
+#container-two .content {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 25%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: all 0.5s;
+    background: rgb(23, 23, 23);
+    transform: translateY(100%);
+}
+
+#container-two:hover .content {
+    transform: translateY(0);
+}
+
+#container-two:hover img {
+    transform: translateY(-30%);
+}
+
+
+
+/* ++++++++++++++Section three++++++++++++++++++ */
+
+
+#container-three .card {
+    position: relative;
+    width: 30rem;
+    height: 30rem;
+    background-color: #000;
+    box-shadow: 0px 30px 30px rgba(0, 0, 0, 0.5);
+}
+
+#container-three .content {
+    position: absolute;
+    width: 80%;
+    height: 10px;
+    background: crimson;
+    bottom: 0;
+    left: 10%;
+    text-align: center;
+    transition: 0.5s;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#container-three h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin: 25px;
+    color: #fff;
+}
+
+#container-three p {
+    width: 80%;
+    margin: 10px auto;
+    font-size: 18px;
+    transition: 0.5s;
+    opacity: 0;
+    line-height: 25px;
+    color: #fff;
+}
+
+#container-three a {
+    text-decoration: none;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 15px;
+    display: inline-block;
+    margin-top: 10px;
+    transition: 0.5s;
+    opacity: 0;
+    line-height: 25px;
+    color: #fff;
+}
+
+#container-three img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s;
+}
+
+#container-three .card:hover .content {
+    height: 100%;
+    width: 100%;
+    left: 0;
+}
+
+#container-three .card:hover p,
+#container-three .card:hover a {
+    opacity: 1;
+    transition-delay: 0.5s;
+}
+
+#container-three .img-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+}
+
+#container-three .card:hover img {
+    opacity: 0;
+}
