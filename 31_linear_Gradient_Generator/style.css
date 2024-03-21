@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+section{
+    margin: 10vh 10vw;
+    display: flex;
+}
+
+.cont{
+    width: 40vw;
+    height: 50vh;
+
+}
+.colors{
+    outline: none;
+    border: none;
+    width: 10rem;
+    height: 10rem;
+
+}
+.randomColor-Btn{
+    margin-top: 2rem;
+    padding: 1rem 2rem;
+    margin-left: 3rem;
+    cursor: pointer;
+    background: crimson;
+    color: #fff;
+    font-size: 2rem;
+    outline: none;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
