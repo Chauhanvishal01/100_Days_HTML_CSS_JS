@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #000;
+
+}
+.content-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    padding: 10px 20px;
+    color: #000;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    width: 160px;
+    height: 100px;
+    margin: 20px;
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+
+.yellow{
+    background-color: yellow;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.crimson{
+    background-color: crimson;
+}
+.blueviolet{
+    background-color: blueviolet;
+}
+.blue{
+    background-color: blue;
+}
+
+
+
+
