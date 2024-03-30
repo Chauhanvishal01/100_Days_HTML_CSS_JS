@@ -1,0 +1,95 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    background: #1a1919;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+.panel-container{
+    background-color: #1d1c1c;
+    box-shadow: 0 0 8px #0000004d;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    width: 700px;
+    color: #fff;
+}
+.panel-container strong{
+    font-size: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 500px;
+}
+
+.ratings-container{
+    display: flex;
+    margin: 20px 0;
+}
+
+.rating{
+    flex: 1;
+    padding: 20px;
+    margin: 10px 5px;
+    cursor: pointer;
+
+}
+
+.rating:hover,
+.rating.active{
+    border-radius: 4px;
+    background: #ccc;
+    transition: 1s ease;
+
+}
+
+.rating .icon{
+    width: 40px;
+    font-size: 80px;
+    margin-left: 10px;
+}
+
+.rating small{
+    color: #fff;
+    display: inline-block;
+    margin: 10px 0 0;
+    font-size: 20px;
+}
+
+.btn{
+    background-color: crimson;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 20px;
+    padding: 12px 30px;
+    cursor: pointer;
+}
+
+.btn:active{
+    transform: scale(0.98);
+}
+
+.heart{
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+
+
